@@ -15,7 +15,7 @@ An interactive Power BI dashboard that analyzes payment transactions to track pe
 - **Fields:** Date, Country, Payment Method, Category, Transaction Status, Transaction Amount
 
 ## Tools & Skills
-- **Power BI:** data cleaning in Power Query, DAX measures, interactive slicers, multi-page report design
+- **Power BI:** data cleaning in Power Query, DAX measures, interactive slicers, multi-page report design, a custom report theme (consistent colors, card-style visuals) and sorted charts
 - **KPI reporting:** success rate, failure rate, total and average transaction value
 
 ## Key DAX Measures
@@ -31,6 +31,13 @@ An interactive Power BI dashboard that analyzes payment transactions to track pe
 1. **Executive Overview:** headline KPIs, monthly value and volume trends, value by country and payment method, with country and payment method filters
 2. **Transaction Analysis:** volume, value and average value by payment method, category and country; transaction status breakdown
 3. **Business Insights:** failure analysis by country, payment method and category, plus key findings
+
+All pages share one custom theme (dark blue for normal values, orange-red for failures).
+
+## Design
+- Custom theme: one main blue color, an orange-red accent used only for failed transactions and failure rates, light grey page background.
+- KPI cards and charts shown as white cards with rounded corners and soft shadows.
+- Bars sorted from highest to lowest so the biggest values are seen first.
 
 ## Key Insights
 - **April** recorded the highest transaction value, volume and average transaction value.
